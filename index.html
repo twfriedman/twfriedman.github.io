@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Absence Reporting System</title>
-  <link rel="stylesheet" href="/css/comp484.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id='banner'>
@@ -15,32 +15,35 @@
   <input id='entercode' type='submit' value="Go"></input>
   <label class='center' id='codevalid' ></label></br>
   <label class='center' for='lname'>Student's name</label></br>
-  <input class='nameentry' id='lname' value='Last name'></intput>
-  <input class='nameentry' id='fname' value='First name'></input></br>
+  <input class='field' id='lname' value='Last name'></intput>
+  <input class='field' id='fname' value='First name'></input></br>
   <label class='center' for='grade'>Student's grade and teacher</label></br>
-  <select class='nameentry' id='grade'>
+  <select class='field' id='grade'>
     <option value=1>1</option>
     <option value=2>2</option>
     <option value=3>3</option>
     <option value=4>4</option>
     <option value=5>5</option>
   </select>
-  <select class='nameentry' id='teacher'>
+  <select class='field' id='teacher'>
     <option>Harvey</option>
     <option>Farrell</option>
     <option>Branford</option>
     <option>Chere</option>
   </select></br>
   <label class='center' for='yourname'>Your name and relation to student</label></br>
-  <input class='nameentry' id='yourlname' value='Last name'></input>
-  <input class='nameentry' id='yourfname' value='First name'></input>
-  <select class='nameentry' id='relation'>
+  <input class='field' id='yourlname' value='Last name'></input>
+  <input class='field' id='yourfname' value='First name'></input>
+  <select class='field' id='relation'>
     <option>Parent</option>
     <option>Grandparent</option>
     <option>Aunt or Uncle</option>
     <option>Sibling</option>
     <option>Other guardian</option>
   </select></br>
+  <label class='center' for='phone'>Your daytime phone number and email address</label></br>
+  <input class='field' id='phone' type='tel' value='Phone number'></input>
+  <input class='field' id='email' type='email' value='Email'></input></br>
   <label class='center' for='date'>Date(s)/Time(s) of absence</label></br>
   <div>
   <textarea class='center' id='date'></textarea></br>
@@ -61,6 +64,6 @@
   <div id='foo>
   <p id='finalnote'>Please note that consistent attendance is vital to a child's educational and social development. In addition, student absences have resulted in more than $1 billion per year in lost funding. For more information, please visit the California Department of Education at http://www.cde.ca.gov/ls/ai/cw/"</p>
   </div>
-   <script src="scripts2.js"></script>
+   <script src="scripts.js"></script>
 </body>
 </html>
